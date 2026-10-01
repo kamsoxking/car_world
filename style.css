@@ -342,6 +342,16 @@ div.tb img{
     padding: 0rem 1rem;
 }
 
+.tablecontainer{
+    width: 100%;
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
 @media (max-width:1001px) {
     nav.navbar img{
         left: 8%;
@@ -385,6 +395,7 @@ div.tb img{
     }
     #check:checked ~ label #cancel{
         display: block;
+        top: 20px;
     }
 }
 
@@ -421,13 +432,13 @@ div.tb img{
         padding-right: 0.5rem;
     }
     .contactForm{
-    width: 300px;
+    width: 280px;
     padding-left: 0rem;
     display: table;
     margin-top: 2rem;
     }
     .contactInfo{
-    width: 300px;
+    width: 280px;
     padding-right: 0rem;
     }
     .imagegrid{
@@ -446,4 +457,12 @@ div.tb img{
     .tbh2{
         font-size: 1.5rem;
     }
+    table{
+    width: 100%;
+    min-width: 300px;
+    border-collapse: collapse;
+}
+.tablecontainer{
+    padding: 1rem 0.5rem;
+}
 }
